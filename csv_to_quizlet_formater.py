@@ -1,5 +1,3 @@
-lessons = 1
-rows = {}
 pinyin = []
 chinese = []
 english = []
@@ -30,7 +28,6 @@ def write_data_hard(pin, chi, eng):
 
 
 if "__main__" == __name__:
-    rows = {}
     extract_new_data(pinyin, chinese, english)
     write_data_exel(pinyin, chinese, english)
     write_data_easy(pinyin, chinese, english)
